@@ -36,9 +36,6 @@
 
 
 
-![스크린샷 2021-02-02 오후 2.39.29](/Users/mac/Library/Application Support/typora-user-images/스크린샷 2021-02-02 오후 2.39.29.png)
-
-
 
 
 
@@ -78,9 +75,7 @@
 
 일반인들은 중파 ~ 초단파를 사용이 많다.
 
-![스크린샷 2021-02-02 오후 3.16.03](/Users/mac/Library/Application Support/typora-user-images/스크린샷 2021-02-02 오후 3.16.03.png)
-
-
+http://www.ktword.co.kr/img_data/1369_1.JPG
 
 
 
