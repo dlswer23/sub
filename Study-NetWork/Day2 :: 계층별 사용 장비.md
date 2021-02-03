@@ -46,6 +46,87 @@
 
     
 
+    #### Router의 역할
+
+    + ##### 경로결정
+
+      + packet이 목적지로 갈 수 있는 경로를 확인하고 어느 경로가 가장 최적경로인지 결정
+
+    + ##### 스위칭
+
+      + 결정된 경로대로 packet을 전송해주는 것
+
+    + Router는 Routing table 을 보고 packet을 전송
+
+    + Routing protocol에 따라  Routing table을 작성한다.
+
+    
+
+    ####   Router의 종류
+
+    + 단독형 : 일체형으로 이미 모든 Interface가 구성(확장성 X)
+    + 모듈형 : 사용자의 필요에 따라 Interface모듈의 직접 꽃아서 사용가능(확장성 O)
+
+    ![Router종류](https://slidesplayer.org/slide/14059271/86/images/4/Router+-+Router%EC%9D%98+%EC%A2%85%EB%A5%98+1%29+%EB%8B%A8%EB%8F%85%ED%98%95+%3A+%EC%9D%BC%EC%B2%B4%ED%98%95%EC%9C%BC%EB%A1%9C+%EC%9D%B4%EB%AF%B8+%EB%AA%A8%EB%93%A0+Interface%EA%B0%80+%EA%B5%AC%EC%84%B1.+%28%ED%99%95%EC%9E%A5%EC%84%B1+X%29.jpg)
+
+    
+
+    
+
+    
+
+    #### Router Interface 종류
+
+    1) LAN구간 Interface -> Ethernet
+
+    2) WAN 구간 Interface -> Serial Interface
+
+    3 ) 관리용 Interface -> Console Port, Auxiliary Port
+
+    
+
+    #### Router에 사용되는 Cable
+
+    ![Cable](https://slidesplayer.org/slide/14059271/86/images/6/Router+WAN+LAN+LAN+-+Router%EC%97%90+%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94+Cable.jpg)
+
+    1) V.35 -> WAN 구간에 사용되는 케이블 중 하나
+
+    2) UTP -> LAN 구간에 사용되는 케이블
+
+    3) Console cable : 장비 관리용 케이블
+
+    
+
+    #### Router 특징
+
+    + Router는 성능, Interface의 숫자, 지원하는 기능, 메이커에 따라 가격이 다르다
+
+    + 모듈형에서 Interface는 따로 구입해야 한다
+
+    + Router에서 사용되는 Software는 IOS라고 한다
+
+      + 즉, Router의 운영체제이다(ex. PC의 Window)
+
+      
+
+    #### Router 접속 방법
+
+    ##### 1) Console cable
+
+    + Router의 Console 포트에 Console cable을 연결하고 나머지 한쪽을 컴퓨터의 Serial 포트에 연결
+    + 열결 후 터미널 프로그램을 사용해서 접속
+    + console cable이 가장 일반적이고 편리한 방법
+      + Router 에 PC를 직접 연결해야 하고 consolecable이 필요하다는 불편함이 있다 -> telnet을 주로 사용
+    + 가장 안정적인 접근이 장점
+
+    ##### 2) Telnet
+
+    + 대부분 Router를 관리할 때 가장 많이 사용하는 방법
+    + Router의 IP주소를 알고 네트워크에 접속만 되어 있다면 장소와 상관없이 접속이 가능하다
+    + Router를 처음 구성할 경우 IP주소 설정이 안되어있기 때문에 Telnet사용이 불가능하고 네트워크 연결이 끊어질 경우 접속이 불가능 하다는 단점이 있다.
+    + Telnet을 Virtual Terminal이라고 한다
+    + 터미널 프로그램을 사용해서 접속 MS-DOS에서도 'telnet x.x.x.x'로 접속이 가능
+
     
 
     
