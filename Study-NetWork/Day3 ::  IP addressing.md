@@ -132,3 +132,9 @@ ex )
 
 (즉, Host field의 bit를 빌려서 Network를 나눈다)
 
+
+
+1) Network 가 조건인 경우 -> 2^n >= Network의 숫자
+
+
+
