@@ -51,7 +51,7 @@
 
 < 필수적으로 외워야 하는 !! >
 
-https://media.vlpt.us/images/xldksps4/post/980fe5d0-fcfe-4395-9148-0a110475ba26/image.png
+![image](https://media.vlpt.us/images/xldksps4/post/980fe5d0-fcfe-4395-9148-0a110475ba26/image.png)
 
 
 
