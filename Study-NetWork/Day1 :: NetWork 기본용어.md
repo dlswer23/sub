@@ -51,7 +51,7 @@
 
 < 필수적으로 외워야 하는 !! >
 
-![스크린샷 2021-02-01 오후 2.46.25](/Users/mac/Library/Application Support/typora-user-images/스크린샷 2021-02-01 오후 2.46.25.png)
+https://media.vlpt.us/images/xldksps4/post/980fe5d0-fcfe-4395-9148-0a110475ba26/image.png
 
 
 
