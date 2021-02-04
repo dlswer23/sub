@@ -231,6 +231,36 @@
 
 
 
+----
+
+### Routing Rrotocol
+
++ #### Routing Protocol의 종류
+
+  
+
+1. Static Routing Protocol(정적 라우팅 프로토콜)
+
+   - 관리자가 직접적으로 목적지 네트워크와 정보를 입력하는 프로토콜
+
+   단점 :  관리자가 직접 네트워크 경로를 일일이 설정해야 하니까 불편하다
+
+   ​		   입력한 경로에 이상이 생겨도 Packet을 계속해서 그 경로로 전송			한다
+
+   
+
+2. Dynamic Routing Protocol
+
+   - Router와 Router가 자동으로 서로의 네트워크 정보를 주고 받으며 네트워크 정보를 업데이트하는 프로토콜
+
+   - ex ) RIP, OSFP, IS-IS 등
+
+     
+
+
+
+
+
 
 
 
