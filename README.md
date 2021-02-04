@@ -19,9 +19,11 @@
 
 
 
-![](https://play-lh.googleusercontent.com/AS83amp2lksRnwWL2UvtsBM_z1vcoTVY6BtkPR4Gu5Davwrcujd6zpobRznVomjvVBP0)
+![image1](https://play-lh.googleusercontent.com/AS83amp2lksRnwWL2UvtsBM_z1vcoTVY6BtkPR4Gu5Davwrcujd6zpobRznVomjvVBP0)
 
 ----
+
+
 
 + ### DB
 
@@ -29,8 +31,8 @@
 
 📚 참고도서 :'데이터베이스의 이해 Understanding of DATABASE'를 참고합니다.
 
-🛠 실습환경 :  **MySQL** 을 사용합니다.
+🛠 실습환경 :  **MySQL Workbench** 을 사용합니다.
 
-![](https://blog.kakaocdn.net/dn/bBLVn5/btqCQ31hFxc/OWrBnpuGJiMMQg9JnJAz3K/img.png)
+![image2](https://blog.kakaocdn.net/dn/bBLVn5/btqCQ31hFxc/OWrBnpuGJiMMQg9JnJAz3K/img.png)
 
 
