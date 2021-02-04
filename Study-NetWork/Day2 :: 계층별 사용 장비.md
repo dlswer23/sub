@@ -129,47 +129,143 @@
 
     
 
+    ##### 3) 기타 접속 방식
+
+    + AUX포트, NMS로 Router에 접속해서 설정할 수도 있다
++ TFTP 서버를 통해 다른 Router에서 만들어놓은 Router 설정파일을 Router로 다운로드 하는 방식이 있다.
     
 
-    
+  
+#### Router 내부 구성
+  
+![Router](https://t1.daumcdn.net/cfile/tistory/2626F14C52977AB601)
 
-    
 
-    
 
-    
+#### 두가지의 특징!
 
-    
++ RAM에 올라가 있는 설정 내용들은 'Running-config'(전원 차단 시 삭제)
++ NVRAM에 저장된 설정 내용들은 'Startup-config'(전원을 차단해도 저장)
 
-    
+-----------
 
-    
++ ##### RAM : IOS가 올라와서 실행되고, Routing table과 구성파일이 올라와서 동작하는 장소
 
-    
+  + 그 외에도 ARP cache 나 fast swiching에 대한 cache를 가지고 있다
+  + 휘발성 메모리이기 때문에 전원을 차단하면 모든 정보가 지워진다.
 
-    
+  
 
-    
++ ##### NVRAM : 전원을 차단해도 저장된 내용이 지워지지 않는 비 휘발성 메모리
 
-    
+  + 설정파일을 저장한다. Routing table은 저장하지 않는다.
 
-    
 
-    
 
-    
++ #####  Flask 메모리
 
-    
+  + 전원을 차단해도 저장된 내용이 지워지지 않는다
+  + 주로 IOS 이미지 파일 저장용으로 사용된다
+  + Router에 새로운 기능이 추가 되면 Router 자체를 교환하는 것이 아니라 IOS를 업그레이드 하면 된다.
 
-    
+  
 
-    
++ ##### ROM
 
-    
+  + Router의 가장 기본적인 내용 저장
+  + 전원이 들어올 경우 어떤 순서로 Router 자신의 상태를 점검하고 IOS를 어디서 RAM으로 올리는지 등의 내용이 저장돼있다.
+  + 복구용 Mini IOS가 저장돼 있다.
 
-    
+  
 
-    
+---------
 
-    
+
+
+#### Router 부팅 과정
+
+1) Power on self test(POST)
+
+2) Load and run bootstrap code
+
+3) Find the IOS sofrware
+
+4) Load thr IOS sofrware
+
+5) Find the configuration
+
+6) Load the configuration
+
+7) Run
+
+
+
+
+
+-----------------
+
+#### **Router 의 Mode**
+
+1.ROMMON Mode
+
+2.Setup Mode
+
+3.User Mode
+
+![](https://t1.daumcdn.net/cfile/tistory/2147C3405297806302)
+
++ 사용중인 Router에 Console 혹은 Teinet으로 접속하면 처음 보이는 화면 
++ 프롬프트가 기본적으로 'Router>' 로 표시
+
+4.Privileged Mode
+
+![](https://t1.daumcdn.net/cfile/tistory/21074D385297811211)
+
++ Router의 **운영자모드**
+
+  -User Mode에서 enable(en만 입력해도됨)명령어를 사용하면 Privileged mode로 들어가게 된다
+
+   (암호가 걸려있는 경우 암호까지 입력해야함)
+
+5.Global configuration Mode (설정모드)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
