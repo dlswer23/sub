@@ -108,7 +108,7 @@ PC의 CLI에서 아무 설정 없는 상태에서 ping + 상대방 ip를 입력�
 
 
 
-![](/Users/mac/Desktop/School SUB👩‍🏫/Study-SUB/Study-NetWork/ping 성공.png)
+![](https://github.com/dlswer23/Study-SUB/blob/master/Study-NetWork/ping%20%EC%84%B1%EA%B3%B5.png?raw=true)
 
 
 
