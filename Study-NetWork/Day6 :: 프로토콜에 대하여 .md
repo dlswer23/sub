@@ -16,6 +16,8 @@ Telnet(23)
 
 HTTP(80)
 
+![포트주소](https://t1.daumcdn.net/cfile/tistory/991F92475B25CF7124)
+
 
 
 
