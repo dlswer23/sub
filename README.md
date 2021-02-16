@@ -35,4 +35,15 @@
 
 ![image2](https://blog.kakaocdn.net/dn/bBLVn5/btqCQ31hFxc/OWrBnpuGJiMMQg9JnJAz3K/img.png)
 
+-----
+
+
+
++ ### Linux
+
+
+🛠 실습환경 :  **vmware**를 사용합니다.
+
+![image3](https://www.virtualhome.blog/wp-content/uploads/2019/12/vmware_workstation_logo.png)
+
 
