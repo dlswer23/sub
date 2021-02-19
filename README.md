@@ -1,11 +1,8 @@
-# Network & DataBase 에 대한 이론정리 Repo 📝
+# Network & DataBase & Linux 에 대한 이론정리 Repo 📝
 
 
 #### 작성 기간 : 2021.1.16 ~ 📊
 
-.
-.
-.
 
 
 
