@@ -14,6 +14,8 @@ Windows : start.
 
 ##### Termianl 단축어 
 
+
+
 + ls -> 현재 디렉토리 확인
 + ls-l -> 옵션 +
 + ls-al -> 옵션 전체
